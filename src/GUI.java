@@ -10,7 +10,7 @@ import java.util.Random;
 import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
 
 public class GUI implements ActionListener{
-    //Putting all in scope before using them to give more function in other methods
+    
     //the guessed number
     Random number1 = new Random();
     int min = 1;
@@ -18,7 +18,7 @@ public class GUI implements ActionListener{
     String i = String.valueOf(number1.nextInt(max + min) + min);
     //used to obtain text field value
     String perform1;
-    //j frame representatives
+    //j frame classes
     JFrame frame;
     JLabel label;
     JLabel label2;
