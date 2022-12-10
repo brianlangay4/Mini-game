@@ -89,7 +89,7 @@ public class GUI implements ActionListener{
         boolean loop = true;
         do {
         //conditions
-            if (perform1.isBlank()){
+            if (perform1.isEmpty()){
                 System.out.println("no inputs");
                 label.setText("no input");
             }
